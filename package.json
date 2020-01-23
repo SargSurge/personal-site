@@ -1,4 +1,5 @@
 {
+  "homepage": "http://SargSurge.github.io/personal-site",
   "name": "blk-design-system-pro-react",
   "version": "1.0.0",
   "private": true,
@@ -30,6 +31,8 @@
     "typescript": "3.4.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
