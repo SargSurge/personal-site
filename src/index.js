@@ -25,7 +25,6 @@ import "assets/demo/demo.css";
 import "assets/demo/react-demo.css";
 
 import Index from "views/Index.jsx";
-import landing from "views/home.jsx"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -36,3 +35,5 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
+
+// Sergio Perez
